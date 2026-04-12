@@ -3,6 +3,7 @@ import ContactSection from "./components/contactSection";
 import HeroSection from "./components/heroSection";
 import ProjectsSection from "./components/projectsSection";
 import SkillsSection from "./components/skillsSection";
+import WhatsAppButton from "./components/whatsapp";
 
 
 
@@ -11,6 +12,7 @@ export default function Home() {
     <div className="w-full min-h-screen">
       <div className="section-fade-in">
         <HeroSection/>
+        <WhatsAppButton/>
       </div>
 
       {/* Animated Divider */}
